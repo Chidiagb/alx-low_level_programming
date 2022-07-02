@@ -1,6 +1,6 @@
-#include <stdlib.h> 
-#include <stdio.h> 
-#include <time.h> 
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
  /** 
  *main - Entry point, positive or negative, print sign of random number 
  *@void: Empty parameter list for main 
