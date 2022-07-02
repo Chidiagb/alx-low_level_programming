@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
  /**
- *main - Entry point, positive or negative, print sign of random number
- *@void: Empty parameter list for main
- *Description: positive, zero and negative values
- *Return: zero for success
+ *main -> assign a random number to the variable n each time it is 
+ *executed and prints out based a condition
+ *Return: Always 0
  */
 int main(void)
 {
@@ -13,16 +13,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	if (n > 0)
-	{
 		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
+        if (n == 0)
 		printf("%d is zero\n", n);
-	}
-	else
+        if (n < 0)
 	{
 		printf("%d negative\n", n);
 	}
