@@ -15,7 +15,7 @@ int main(void)
 	}
 	for (ch = 65; ch <= 90; ch++)
 	{
-	
+
 	putchar(ch);
 	}
 	putchar(10); /* this is ascii code for new line */
