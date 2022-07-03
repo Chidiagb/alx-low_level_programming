@@ -1,20 +1,18 @@
-#include <stdlib.h> 
-#include <stdio.h> 
-#include <time.h> 
- /** 
- *main- entry point 
- *Description: Alphabets 
- *Return: zero on success 
- */ 
- int main(void) 
- { 
-         char letter = 'a'; 
-  
-         while (letter <= 'z') 
-         { 
-                 putchar(letter); 
-                 letter++; 
-         } 
-         putchar('\n'); 
-         return (0); 
- }
+#include <stdio.h>
+
+/**
+* main -> a program that prints the alphabet in lowercase,
+* followed by a new line.
+* Return: Always 0
+*/
+int main(void)
+{
+	int ch;
+
+	for (ch = 97 ; ch <= 122 ; ch++)
+	{
+	putchar(ch);
+	}
+	putchar(10); /* this is ascii code for new line */
+	return (0);
+}
