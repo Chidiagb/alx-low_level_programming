@@ -4,7 +4,7 @@
 #define daysTot 365
 #define janDaysTot 31
 
- /**
+/**
  * print_remaining_days - takes a date and prints how many days are
  * left in the year, taking leap years into considerations
  * @month: month in number format
@@ -12,12 +12,12 @@
  * @year: year
  *
  * Created by: ALX
- * modified by: TosinISOGUN
- * Date modified: 6th July, 2022
+ * modified by: Chidiagb
+ * Date modified: 7th July, 2022
  *
  * Return: void
  */
- 
+
 void print_remaining_days(int month, int day, int year)
 {
 	if ((!(year % 100 == 0) || year % 400 == 0)

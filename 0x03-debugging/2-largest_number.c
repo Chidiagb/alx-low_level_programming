@@ -7,8 +7,8 @@
  * @var3: third integer
  *
  * Created by: ALX
- * Modified by: TosinISOGUN
- * Date modified: 6th July, 2022
+ * Modified by: Chidiagb
+ * Date modified: 7th July, 2022
  *
  * Return: largest number
  */
