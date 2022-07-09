@@ -1,1 +1,1 @@
-My first time doing C programming
+Everything you need to know to start with C.
