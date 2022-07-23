@@ -1,6 +1,6 @@
 # ALX Low Level Programming
 
-A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture—commands or functions in the language map that are structurally similar to processor's instructions.
+A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture commands or functions in the language map that are structurally similar to processor's instructions.
 
 # Table of Contents
 
@@ -13,3 +13,5 @@ A low-level programming language is a programming language that provides little 
 * [C - More pointers, arrays and strings](https://github.com/Chidiagb/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
 * [C - Even more pointers, arrays and strings](https://github.com/Chidiagb/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 * [C - Recursion](https://github.com/Chidiagb/alx-low_level_programming/tree/master/0x08-recursion)
+* [C - Static libraries](https://github.com/Chidiagb/alx-low_level_programming/tree/master/0x09-static_libraries)
+* [C - argc, argv](https://github.com/Chidiagb/alx-low_level_programming/tree/master/0x0A-argc_argv)
